@@ -8,8 +8,7 @@ interface State {
     store: Store;
 }
 
-const store = new Store();
-
+export const store = new Store();
 
 export const StoreContext = React.createContext<State>(
     {
